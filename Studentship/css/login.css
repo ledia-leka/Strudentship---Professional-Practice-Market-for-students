@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body {
+Background-color: rgba(14, 7, 7, 0.808);
+text-align: center;
+
+}
+.form{
+
+display: block;
+position:absolute;
+margin-left:33%;
+}
+form{
+position:absolute;
+display: inline-block;
+align-self: center;
+box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+padding:50px;
+width:500px;
+}
+form .login{
+position: relative;
+display: flex;
+text-transform: uppercase;
+font-size: 13px;
+transition: all .5s;
+background:transparent;
+cursor:pointer;
+color:#5e5758;;
+padding-bottom:40px;
+
+}
+form .login h1:last-child{
+margin-left:10px;
+}
+form .login h1.active{
+color: lightgrey;
+box-shadow: 0 -4px 2px red;
+}
+form .line{
+padding:12px;
+width:100%;
+align-items: center;
+border-radius: 3px;
+border:1px solid #ff0000;
+display: flex;
+margin-top:20px;
+transition: all .3s;
+
+}
+form .line:hover{
+border: 2px solid ;
+}
+form .line.uploadf{
+padding:0;
+margin-left:0;
+border:0;
+}
+
+form  input{
+    font-family:"Roboto",sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:#ffffff;
+    width:100%;
+    margin-bottom:2%;
+    background: transparent;
+    margin-left:0px;
+    outline:none;
+    padding:12px;
+}
+
+
+.filename{
+padding-left:8px;
+color: #aaa;
+font-family:"Roboto",sans-serif;
+}
+button{
+border:0;
+text-transform: uppercase;
+background: red;
+font-family:"Roboto",sans-serif;
+width:100%;
+font-weight: 700;
+padding: 10px;
+margin-top:20px;
+box-shadow: 0  0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0.28);
+font-size: 16px;
+cursor: pointer;
+color:#fff;
+}
+label{
+margin-left: 0px;
+margin-top:8px;
+text-transform: uppercase;
+color: #aaa;
+font-size: 14px;
+}
+.chbox{
+position:left;
+margin-right: 0px;
+}
+.tab{
+display: none;
+}
+h1{
+    font-size: 28px;
+}

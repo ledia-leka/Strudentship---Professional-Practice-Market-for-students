@@ -1,0 +1,175 @@
+@import url(./font.css);
+.main{
+    
+height: 55%;
+width: 100%;
+
+background: rgba(20, 19, 19, 0.767);
+}
+.profile_pic{
+    margin: 15px;
+    margin-left: 12%;
+    width:65%;
+    margin-top: 17%;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.studentname{
+    margin-top:5%;
+    margin-right:5%;
+    padding-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: #ffffff;
+}
+.degree{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+color: red;
+line-height: 15px;
+
+}
+.university{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    line-height: 15px;}
+.email{
+    
+position: absolute;
+
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-style: italic;
+font-size: 25px;
+line-height: 55px;
+color: #f1f0eeb9;
+}
+.emailtf{
+width: 55%;
+height: 30px;
+border-width: 1px ;
+border-color: rgb(196, 196, 196);
+line-height: 50px;
+margin-left:45%;
+margin-top:10px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.788), 0 4px 8px rgba(0,0,0,.28);
+background-color: rgba(246, 248, 248, 0.938);
+}
+.phone{
+    
+    position: absolute;
+    height: 43px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 55px;
+    color: #f1f0eeb9;
+    }
+    .phonetf{
+    width: 55%;
+    height: 30px;
+    border-width: 1px ;
+    border-color: rgb(196, 196, 196);
+    line-height: 50px;
+    margin-left:45%;
+    margin-top:10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.788), 0 4px 8px rgba(0,0,0,.28);
+    background-color: rgba(246, 248, 248, 0.938);
+    }
+    .city{
+    
+        position: absolute;
+        height: 43px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-style: italic;
+        font-size: 25px;
+        line-height: 55px;
+        color: #f1f0eeb9;
+        }
+        .citytf{
+        width: 55%;
+        height: 30px;
+        border-width: 1px ;
+        border-color: rgb(196, 196, 196);
+        line-height: 50px;
+        margin-left:45%;
+        margin-top:10px;
+        background-color: rgba(246, 248, 248, 0.938);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.788), 0 4px 8px rgba(0,0,0,.28);
+        }
+        .langs{
+    
+            position: absolute;
+            width: 40%;
+            height: 43px;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-style: italic;
+            font-size: 25px;
+            line-height: 55px;
+            color: #f1f0eeb9;
+            }
+            .ltf{
+            width: 55%;
+            height: 30px;
+            border-width: 1px ;
+            border-color: rgb(196, 196, 196);
+            line-height: 50px;
+            margin-top:10px;
+            background-color: rgba(246, 248, 248, 0.938);
+            margin-left: 45%;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.788), 0 4px 8px rgba(0,0,0,.28);
+            }
+            .links {
+                font-size: 30px;
+                color: #3c4057;
+                position: inherit;
+                text-align:center;
+            }
+            input{
+                width:30%;
+                height: 30px;
+                border-width: 1px ;
+                border-color: rgb(196, 196, 196);
+                background-color: rgba(246, 248, 248, 0.938);
+                box-shadow: 0 0 4px rgba(0, 0, 0, 0.788), 0 4px 8px rgba(0,0,0,.28);
+                }
+            .last h2{
+                font-size: 24px;
+                margin-top: 7%;
+                text-align: center;
+                color: rgb(68, 65, 112);
+                font-weight: bold;
+                
+            }
+            .last{
+                background-color: #cfcfcfb9;
+
+            }
+            button{
+                background-color:red;
+                border-width: 1px;
+                color:white;
+                font-weight: bold;
+                
+                border-color: rgb(68, 65, 112);
+            }
+           .pass{
+               margin:5%;
+           } 
+        

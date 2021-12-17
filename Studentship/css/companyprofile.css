@@ -1,0 +1,59 @@
+@import url(./font.css);
+
+body{
+    background-color: rgba(207, 207, 207, 0.418);  
+    background-image: url('../imgs/backgroundimage.jpg');
+    
+}
+.section1{
+background-color: rgba(8, 8, 8, 0.349);
+}
+.logo{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+}
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    text-align:center;
+}
+.contact{ 
+    margin-left:5%;
+    display: inline;
+    margin-right:5%;
+    font-size:20px;
+    font-style: italic;
+    color: red;
+   
+}
+.section2{
+    margin-top:4%;
+
+}
+.about-img{
+    width:100%;
+    
+}
+.about-p{
+    background-color:rgba(8, 8, 8, 0.349);
+    padding:30px;
+    color:whitesmoke;
+}
+.about-w{
+    background-color:rgba(8, 8, 8, 0.349);
+    padding:30px;
+    color:whitesmoke;
+}
+.what-img{
+    width:100%;
+}
+.internn{
+    margin:15%;
+    background-color: rgba(12, 12, 12, 0.719);
+    color:white;
+    padding:5%;
+
+}

@@ -1,0 +1,133 @@
+@import url(./font.css);
+
+body {
+
+margin-left:-5%;
+background-color: rgba(0, 0, 0, 0.808); 
+}
+.form{
+  position:absolute;
+}
+
+form{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.788), 0 4px 8px rgba(0,0,0,.28);
+ padding:50px; 
+  width:100%;
+}
+
+
+form h1{
+    margin-top: -3%;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 20;
+    color:white;
+}
+form .line{
+  padding:12px;
+  height: 35px;
+  width:100%;
+  align-items: center;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  border:1px solid #ffffff;
+  border-bottom-color: cornflowerblue;
+  border-left-color:red;
+  display: flex;
+  margin-top:2px;
+  transition: all .3s;
+  text-align: left;
+  padding-left:30px;
+
+  }
+form .line:hover{
+  border: 1px solid rgb(47, 0, 255);
+}
+form .line.uploadf{
+  padding:0;
+  margin-left:0;
+  border:0;
+}
+
+form  input{
+  font-family:"Roboto",sans-serif;
+  font-weight:400;
+  font-size:16px;
+  color:white;
+  width:100%;
+  background: transparent;
+  margin-left:0px;
+  outline:none;
+}
+.Upbutton{
+    height:35px;
+  position: inherit;
+  font-size: 14px;
+  border:0;
+  font-family:"Roboto",sans-serif;
+  font-weight:400;
+  background-color: red !important;
+  color: #fff !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.filename{
+  padding-top:-5px;
+  padding-left:8px;
+  color: #aaa;
+  font-family:"Roboto",sans-serif;
+}
+button{
+  border:0;
+  text-transform: uppercase;
+  background: red ;
+  font-family:"Roboto",sans-serif;
+  width:100%;
+  height:35px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top:20px;
+  box-shadow: 0  0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0.28);
+  font-size: 14px;
+  cursor: pointer;
+  color:#fff;
+}
+.chbox{
+    margin-left: -40%;
+    margin-right:-40%;
+}
+.langs{
+    size: 14px;
+    color: #aaa;
+  font-family:"Roboto",sans-serif;
+  font-weight:bold;
+  padding:5px;
+}
+.add_data{
+    margin-top: 4%;
+}
+
+form .newline{
+    padding:12px;
+    height: 35px;
+    width:100%;
+    align-items: center;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border:1px solid #ffffff;
+    border-bottom-color: cornflowerblue;
+    border-left-color: red;
+    display: flex;
+    margin-top:2px;
+    transition: all .3s;
+    text-align: left;
+    padding-left:30px;
+   background-color:  rgba(48, 47, 47, 0.644);
+   color:white; 
+    }
+
+   

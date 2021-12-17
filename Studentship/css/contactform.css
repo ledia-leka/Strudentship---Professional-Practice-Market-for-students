@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(0, 0, 0, 0.836);
+    color:rgb(255, 255, 255);
+}
+form{
+   margin-top:5%;
+   margin-left:15%;
+}
+.line{
+   background-color: rgba(24, 23, 23, 0.836);
+   color:white;
+    padding:12px;
+    height: 35px;
+    width:55%;
+    margin-bottom:2%;
+    align-items: center;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border:1px solid red;
+    border-bottom-color: cornflowerblue;
+    border-top-color:white;
+    display: flex;
+    margin-top:2px;
+    transition: all .3s;
+    padding-left:30px;
+  
+    }
+
+    .email{
+        height:100px;
+        display: initial;
+        width:80%;
+    }
+    
+button{
+    border:0;
+    text-transform: uppercase;
+    background: red ;
+    font-family:"Roboto",sans-serif;
+    width:50%;
+    height:35px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top:20px;
+    box-shadow: 0  0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0.28);
+    font-size: 14px;
+    cursor: pointer;
+    color:#fff;
+  }

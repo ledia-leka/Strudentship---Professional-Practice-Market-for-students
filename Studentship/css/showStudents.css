@@ -1,0 +1,49 @@
+
+    body{
+        background-color: rgba(14, 7, 7, 0.808);
+    }
+
+.tablee{
+    font-size: 18px;
+  margin-left:7%;
+
+}
+.tablee .head{
+    background-color: rgba(14, 7, 7, 0.808);
+    border-left: red;
+    border-color: red;
+    border-width:1px;
+    color: whitesmoke;
+    font-size: 16px;
+
+}
+h1{
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 20;
+}
+ .button{
+    border:0;
+    background: red ;
+    font-family:"Roboto",sans-serif;
+    font-weight: 700;
+    height:30px;
+    margin-top:5px;
+    box-shadow: 0  0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0.28);
+    font-size:14px;
+    cursor: pointer;
+    color:#fff;
+}
+#add{
+    background-color:rgba(53, 52, 52, 0.644);
+}
+  td{
+      color:black;
+      width:10%;
+      font-size:14px;
+      background-color: whitesmoke;
+    }

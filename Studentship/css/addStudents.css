@@ -1,0 +1,58 @@
+
+    body{
+        background-color: rgba(14, 7, 7, 0.808);
+    }
+
+.tablee{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+label{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 700;
+}
+h1{
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 20;
+}
+.btn{
+    border:0;
+    background: red ;
+    font-family:"Roboto",sans-serif;
+    font-weight: 700;
+    height:30px;
+    margin-top:5px;
+    box-shadow: 0  0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0.28);
+    font-size:14px;
+    cursor: pointer;
+    color:#fff;
+    margin-left: 50%;
+}
+input{
+    height: 35px;
+    width:100%;
+    align-items: center;
+    letter-spacing: 1px;
+    border:1px solid #ffffff;
+    border-bottom-color: cornflowerblue;
+    border-left-color: red;
+    display: flex;
+    margin-top:2px;
+     margin-left:5%;
+     margin-bottom:3%;
+    transition: all .3s;
+    text-align: left;
+   background-color:  rgba(48, 47, 47, 0.644);
+   color:white; 
+  
+}
+.show {display: block;}
